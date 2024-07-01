@@ -1,4 +1,4 @@
-import { formatQueryParams } from '@clickhouse/client-common'
+import { formatQueryParams } from 'clickhouse-client-common'
 
 describe('formatQueryParams', () => {
   it('formats null', () => {

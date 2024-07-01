@@ -1,4 +1,4 @@
-import { transformUrl } from '@clickhouse/client-common'
+import { transformUrl } from 'clickhouse-client-common'
 
 describe('transformUrl', () => {
   it('only adds the trailing slash to a url without pathname', () => {

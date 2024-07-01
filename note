@@ -1,0 +1,2 @@
+ts-node .build/build_and_prepare.ts node && npm pack && npm publish
+ts-node .build/build_and_prepare.ts common && npm pack && npm publish

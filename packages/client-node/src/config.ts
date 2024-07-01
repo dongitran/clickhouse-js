@@ -1,12 +1,12 @@
 import type {
   DataFormat,
   ImplementationDetails,
-} from '@clickhouse/client-common'
+} from 'clickhouse-client-common'
 import {
   type BaseClickHouseClientConfigOptions,
   type ConnectionParams,
   numberConfigURLValue,
-} from '@clickhouse/client-common'
+} from 'clickhouse-client-common'
 import type http from 'http'
 import type https from 'node:https'
 import type Stream from 'stream'

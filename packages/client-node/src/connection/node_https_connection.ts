@@ -1,5 +1,5 @@
-import type { BaseQueryParams } from '@clickhouse/client-common'
-import { withCompressionHeaders } from '@clickhouse/client-common'
+import type { BaseQueryParams } from 'clickhouse-client-common'
+import { withCompressionHeaders } from 'clickhouse-client-common'
 import type Http from 'http'
 import Https from 'https'
 import type {

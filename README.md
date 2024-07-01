@@ -32,7 +32,7 @@ The repository consists of three packages:
 - `@clickhouse/client-web` - a version of the client built on top of [Fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
   and [Web Streams](https://developer.mozilla.org/en-US/docs/Web/API/Streams_API) APIs; supports streaming for selects.
   Compatible with Chrome/Firefox browsers and CloudFlare workers.
-- `@clickhouse/client-common` - shared common types and the base framework for building a custom client implementation.
+- `clickhouse-client-common` - shared common types and the base framework for building a custom client implementation.
 
 ## Documentation
 

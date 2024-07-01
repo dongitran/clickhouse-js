@@ -1,4 +1,4 @@
-import type { ClickHouseClient, Row } from '@clickhouse/client-common'
+import type { ClickHouseClient, Row } from 'clickhouse-client-common'
 import { createTestClient } from '@test/utils'
 
 describe('[Web] abort request streaming', () => {

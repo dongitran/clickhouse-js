@@ -1,4 +1,4 @@
-import type { BaseClickHouseClientConfigOptions } from '@clickhouse/client-common'
+import type { BaseClickHouseClientConfigOptions } from 'clickhouse-client-common'
 import { createClient } from '../../src'
 
 describe('[Web] createClient', () => {

@@ -24,11 +24,13 @@ export function withHttpSettings(
   compression?: boolean,
 ): ClickHouseSettings {
   return {
-    ...(compression
+    /*
+        ...(compression
       ? {
           enable_http_compression: 1,
         }
       : {}),
+    */
     ...clickhouse_settings,
   }
 }

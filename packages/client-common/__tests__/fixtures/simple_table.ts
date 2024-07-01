@@ -1,7 +1,7 @@
 import type {
   ClickHouseClient,
   MergeTreeSettings,
-} from '@clickhouse/client-common'
+} from 'clickhouse-client-common'
 import { createTable, TestEnv } from '../utils'
 
 export function createSimpleTable<Stream = unknown>(

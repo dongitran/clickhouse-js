@@ -6,8 +6,8 @@ import type {
   InsertResult,
   IsSame,
   QueryParamsWithFormat,
-} from '@clickhouse/client-common'
-import { ClickHouseClient } from '@clickhouse/client-common'
+} from 'clickhouse-client-common'
+import { ClickHouseClient } from 'clickhouse-client-common'
 import type { WebClickHouseClientConfigOptions } from './config'
 import { WebImpl } from './config'
 import type { ResultSet } from './result_set'

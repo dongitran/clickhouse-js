@@ -1,4 +1,4 @@
-import type { ConnectionParams } from '@clickhouse/client-common'
+import type { ConnectionParams } from 'clickhouse-client-common'
 import http from 'http'
 import https from 'node:https'
 import {

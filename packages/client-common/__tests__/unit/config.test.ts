@@ -1,13 +1,13 @@
 import type {
   BaseClickHouseClientConfigOptions,
   HandleImplSpecificURLParams,
-} from '@clickhouse/client-common'
+} from 'clickhouse-client-common'
 import {
   ClickHouseLogLevel,
   getConnectionParams,
   LogWriter,
   numberConfigURLValue,
-} from '@clickhouse/client-common'
+} from 'clickhouse-client-common'
 import { TestLogger } from '@test/utils'
 import type { BaseClickHouseClientConfigOptionsWithURL } from '../../src/config'
 import {

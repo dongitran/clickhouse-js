@@ -2,7 +2,7 @@ import type { ResultSet } from '../../src'
 import type {
   ClickHouseClient as BaseClickHouseClient,
   DataFormat,
-} from '@clickhouse/client-common'
+} from 'clickhouse-client-common'
 import { createTableWithFields } from '@test/fixtures/table_with_fields'
 import { guid } from '@test/utils'
 import type { ClickHouseClient } from '../../src'

@@ -12,14 +12,14 @@ import type {
   ConnPingResult,
   ConnQueryResult,
   LogWriter,
-} from '@clickhouse/client-common'
+} from 'clickhouse-client-common'
 import {
   isSuccessfulResponse,
   parseError,
   toSearchParams,
   transformUrl,
   withHttpSettings,
-} from '@clickhouse/client-common'
+} from 'clickhouse-client-common'
 import crypto from 'crypto'
 import type Http from 'http'
 import type * as net from 'net'

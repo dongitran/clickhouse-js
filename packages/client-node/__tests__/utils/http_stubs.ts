@@ -1,4 +1,4 @@
-import { LogWriter } from '@clickhouse/client-common'
+import { LogWriter } from 'clickhouse-client-common'
 import { TestLogger } from '@test/utils'
 import { randomUUID } from '@test/utils/guid'
 import type Http from 'http'

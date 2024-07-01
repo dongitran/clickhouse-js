@@ -3,8 +3,8 @@ import type {
   ErrorLogParams,
   Logger,
   LogParams,
-} from '@clickhouse/client-common'
-import { ClickHouseLogLevel } from '@clickhouse/client-common'
+} from 'clickhouse-client-common'
+import { ClickHouseLogLevel } from 'clickhouse-client-common'
 import { createTestClient } from '@test/utils'
 
 describe('[Node.js] logger support', () => {

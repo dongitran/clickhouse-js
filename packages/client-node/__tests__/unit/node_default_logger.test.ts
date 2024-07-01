@@ -2,7 +2,7 @@ import {
   ClickHouseLogLevel,
   DefaultLogger,
   LogWriter,
-} from '@clickhouse/client-common'
+} from 'clickhouse-client-common'
 
 describe('[Node.js] Logger/LogWriter', () => {
   type LogLevel = 'TRACE' | 'DEBUG' | 'INFO' | 'WARN' | 'ERROR'

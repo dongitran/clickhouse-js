@@ -1,5 +1,5 @@
 import { createClient } from '@clickhouse/client'
-import { ClickHouseError } from '@clickhouse/client-common'
+import { ClickHouseError } from 'clickhouse-client-common'
 import { EventEmitter } from 'events'
 
 // This example demonstrates how to use async inserts without waiting for an ack about a successfully written batch.

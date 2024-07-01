@@ -1,7 +1,7 @@
 import type {
   ClickHouseClient,
   ClickHouseSettings,
-} from '@clickhouse/client-common'
+} from 'clickhouse-client-common'
 import { randomUUID } from '@test/utils/guid'
 import { createTableWithFields } from '../fixtures/table_with_fields'
 import { createTestClient, getRandomInt, TestEnv, whenOnEnv } from '../utils'

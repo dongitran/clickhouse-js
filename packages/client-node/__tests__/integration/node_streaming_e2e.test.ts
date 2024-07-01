@@ -1,8 +1,8 @@
-import type { Row } from '@clickhouse/client-common'
+import type { Row } from 'clickhouse-client-common'
 import {
   type ClickHouseClient,
   type ClickHouseSettings,
-} from '@clickhouse/client-common'
+} from 'clickhouse-client-common'
 import { fakerRU } from '@faker-js/faker'
 import { createSimpleTable } from '@test/fixtures/simple_table'
 import { createTableWithFields } from '@test/fixtures/table_with_fields'

@@ -1,8 +1,8 @@
 import type {
   BaseClickHouseClientConfigOptions,
   ConnectionParams,
-} from '@clickhouse/client-common'
-import { DefaultLogger, LogWriter } from '@clickhouse/client-common'
+} from 'clickhouse-client-common'
+import { DefaultLogger, LogWriter } from 'clickhouse-client-common'
 import { createClient } from '../../src'
 import type { CreateConnectionParams } from '../../src/connection'
 import * as c from '../../src/connection/create_connection'

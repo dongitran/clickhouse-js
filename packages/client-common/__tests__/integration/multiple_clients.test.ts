@@ -1,4 +1,4 @@
-import type { ClickHouseClient } from '@clickhouse/client-common'
+import type { ClickHouseClient } from 'clickhouse-client-common'
 import { createSimpleTable } from '../fixtures/simple_table'
 import { createTestClient, guid } from '../utils'
 

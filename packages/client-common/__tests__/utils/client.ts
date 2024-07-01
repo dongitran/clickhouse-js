@@ -3,7 +3,7 @@ import type {
   BaseClickHouseClientConfigOptions,
   ClickHouseClient,
   ClickHouseSettings,
-} from '@clickhouse/client-common'
+} from 'clickhouse-client-common'
 import { EnvKeys, getFromEnv } from './env'
 import { guid } from './guid'
 import {

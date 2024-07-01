@@ -1,4 +1,4 @@
-import { type ClickHouseClient } from '@clickhouse/client-common'
+import { type ClickHouseClient } from 'clickhouse-client-common'
 import { createTableWithFields } from '@test/fixtures/table_with_fields'
 import { createTestClient, TestEnv, whenOnEnv } from '../utils'
 
