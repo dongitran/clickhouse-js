@@ -1,4 +1,4 @@
-import type { ClickHouseClient } from '@clickhouse/client-common'
+import type { ClickHouseClient } from 'clickhouse-client-common'
 import { createTestClient, guid, TestEnv, whenOnEnv } from '@test/utils'
 
 describe('sessions settings', () => {

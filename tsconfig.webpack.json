@@ -8,14 +8,21 @@
     "esModuleInterop": true,
     "strict": true,
     "outDir": "out",
-    "lib": ["esnext", "dom"],
+    "lib": [
+      "esnext",
+      "dom"
+    ],
     "types": [],
     "baseUrl": "./",
     "paths": {
-      "@clickhouse/client-common": ["packages/client-common/src/index.ts"]
+      "clickhouse-client-common": [
+        "packages/client-common/src/index.ts"
+      ]
     }
   },
-  "exclude": ["node_modules"],
+  "exclude": [
+    "node_modules"
+  ],
   "include": [
     "./packages/client-common/src/**/*.ts",
     "./packages/client-web/src/**/*.ts"

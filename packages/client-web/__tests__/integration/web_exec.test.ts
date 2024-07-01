@@ -1,4 +1,4 @@
-import type { ClickHouseClient } from '@clickhouse/client-common'
+import type { ClickHouseClient } from 'clickhouse-client-common'
 import { createTestClient } from '@test/utils'
 import { getAsText } from '../../src/utils'
 import { ResultSet } from '../../src'

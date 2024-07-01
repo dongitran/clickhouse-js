@@ -1,4 +1,4 @@
-import type { ClickHouseClient } from '@clickhouse/client-common'
+import type { ClickHouseClient } from 'clickhouse-client-common'
 import { createTestClient, getTestDatabaseName } from '../utils'
 
 describe('ClickHouse server errors parsing', () => {

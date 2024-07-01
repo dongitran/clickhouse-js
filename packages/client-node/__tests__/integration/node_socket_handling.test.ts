@@ -1,7 +1,4 @@
-import type {
-  ClickHouseClient,
-  ConnPingResult,
-} from '@clickhouse/client-common'
+import type { ClickHouseClient, ConnPingResult } from 'clickhouse-client-common'
 import { permutations } from '@test/utils'
 import { createTestClient } from '@test/utils'
 import * as http from 'http'

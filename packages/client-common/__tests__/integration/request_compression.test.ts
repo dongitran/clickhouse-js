@@ -1,7 +1,7 @@
 import {
   type ClickHouseClient,
   type ResponseJSON,
-} from '@clickhouse/client-common'
+} from 'clickhouse-client-common'
 import { createSimpleTable } from '../fixtures/simple_table'
 import { createTestClient, guid } from '../utils'
 

@@ -1,4 +1,4 @@
-import type { Row } from '@clickhouse/client-common'
+import type { Row } from 'clickhouse-client-common'
 import { guid } from '@test/utils'
 import { ResultSet } from '../../src'
 

@@ -1,4 +1,4 @@
-import type { Row } from '@clickhouse/client-common'
+import type { Row } from 'clickhouse-client-common'
 import { guid } from '@test/utils'
 import Stream, { Readable } from 'stream'
 import { ResultSet } from '../../src'

@@ -1,4 +1,4 @@
-import type { ClickHouseClient } from '@clickhouse/client-common'
+import type { ClickHouseClient } from 'clickhouse-client-common'
 import { createTestClient } from '@test/utils'
 import * as fs from 'fs'
 import Http from 'http'

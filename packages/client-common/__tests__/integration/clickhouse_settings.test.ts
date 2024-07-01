@@ -1,5 +1,5 @@
-import type { ClickHouseClient, InsertParams } from '@clickhouse/client-common'
-import { SettingsMap } from '@clickhouse/client-common'
+import type { ClickHouseClient, InsertParams } from 'clickhouse-client-common'
+import { SettingsMap } from 'clickhouse-client-common'
 import { createSimpleTable } from '../fixtures/simple_table'
 import { createTestClient, guid } from '../utils'
 

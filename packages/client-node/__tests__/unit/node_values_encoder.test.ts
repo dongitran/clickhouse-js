@@ -2,7 +2,7 @@ import type {
   DataFormat,
   InputJSON,
   InputJSONObjectEachRow,
-} from '@clickhouse/client-common'
+} from 'clickhouse-client-common'
 import Stream from 'stream'
 import { NodeValuesEncoder } from '../../src/utils'
 

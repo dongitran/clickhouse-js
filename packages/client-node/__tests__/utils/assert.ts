@@ -1,4 +1,4 @@
-import type { ConnQueryResult } from '@clickhouse/client-common'
+import type { ConnQueryResult } from 'clickhouse-client-common'
 import { validateUUID } from '@test/utils'
 import type Stream from 'stream'
 import { getAsText } from '../../src/utils'

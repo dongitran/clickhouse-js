@@ -1,4 +1,4 @@
-import { type ClickHouseClient } from '@clickhouse/client-common'
+import { type ClickHouseClient } from 'clickhouse-client-common'
 import { createTestClient, guid, validateUUID } from '../utils'
 
 describe('select', () => {

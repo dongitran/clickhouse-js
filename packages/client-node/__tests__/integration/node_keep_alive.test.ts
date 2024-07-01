@@ -1,4 +1,4 @@
-import { ClickHouseLogLevel } from '@clickhouse/client-common'
+import { ClickHouseLogLevel } from 'clickhouse-client-common'
 import { createSimpleTable } from '@test/fixtures/simple_table'
 import { guid, sleep } from '@test/utils'
 import type { ClickHouseClient } from '../../src'

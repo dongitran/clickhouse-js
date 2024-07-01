@@ -1,4 +1,4 @@
-# 1.2.0 (Node.js)
+# 1.2.1 (Node.js)
 
 ## New features
 
@@ -452,11 +452,11 @@ without Node.js modules in the common interfaces. No polyfills are required.
 
 Web client is confirmed to work with Chrome/Firefox/CloudFlare workers.
 
-It is now possible to implement new custom connections on top of `@clickhouse/client-common`.
+It is now possible to implement new custom connections on top of `clickhouse-client-common`.
 
 The client was refactored into three packages:
 
-- `@clickhouse/client-common`: all possible platform-independent code, types and interfaces
+- `clickhouse-client-common`: all possible platform-independent code, types and interfaces
 - `@clickhouse/client-web`: new web (or non-Node.js env) connection, uses native fetch.
 - `@clickhouse/client`: Node.js connection as it was before.
 

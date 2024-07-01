@@ -1,8 +1,8 @@
 import type {
   BaseClickHouseClientConfigOptions,
   ConnectionParams,
-} from '@clickhouse/client-common'
-import { LogWriter } from '@clickhouse/client-common'
+} from 'clickhouse-client-common'
+import { LogWriter } from 'clickhouse-client-common'
 import { TestLogger } from '@test/utils'
 import { Buffer } from 'buffer'
 import http from 'http'

@@ -27,11 +27,12 @@ import * as process from 'process'
   console.log(`Current ${packageName} package version is: ${version}`)
   packageJson.version = version
 
-  if (packageJson['dependencies']['@clickhouse/client-common']) {
-    const commonVersion =
-      require(`../packages/client-common/src/version.ts`).default
+  if (packageJson['dependencies']['clickhouse-client-common']) {
+    const commonVersion = require(
+      `../packages/client-common/src/version.ts`,
+    ).default
     console.log(`Updating client-common dependency to ${commonVersion}`)
-    packageJson['dependencies']['@clickhouse/client-common'] = commonVersion
+    packageJson['dependencies']['clickhouse-client-common'] = commonVersion
   }
 
   console.log('Updated package json:')
@@ -48,7 +49,7 @@ import * as process from 'process'
     fs.writeFileSync(
       './package.json',
       JSON.stringify(packageJson, null, 2) + '\n',
-      'utf-8'
+      'utf-8',
     )
   } catch (err) {
     console.error(err)

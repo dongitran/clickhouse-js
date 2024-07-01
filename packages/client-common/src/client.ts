@@ -8,8 +8,8 @@ import type {
   LogWriter,
   MakeResultSet,
   WithClickHouseSummary,
-} from '@clickhouse/client-common'
-import { type DataFormat, DefaultLogger } from '@clickhouse/client-common'
+} from 'clickhouse-client-common'
+import { type DataFormat, DefaultLogger } from 'clickhouse-client-common'
 import type { InputJSON, InputJSONObjectEachRow } from './clickhouse_types'
 import type { ImplementationDetails, ValuesEncoder } from './config'
 import { getConnectionParams, prepareConfigWithURL } from './config'
